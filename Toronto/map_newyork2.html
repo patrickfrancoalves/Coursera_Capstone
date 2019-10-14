@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_ef888303feba4bc387d066f83e4d3110 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ef888303feba4bc387d066f83e4d3110" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_ef888303feba4bc387d066f83e4d3110 = L.map(
+                                  'map_ef888303feba4bc387d066f83e4d3110',
+                                  {center: [43.64635315,-79.4023620504047],
+                                  zoom: 14,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_e6bdb5fd5e6b46bba146c581cf993910 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+        
+    
+            var circle_marker_d825136304834085b3171fc72e8ac069 = L.circleMarker(
+                [43.64711589206853,-79.40415196491139],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_161623946ea741ada94ba4a91da31344 = L.popup({maxWidth: '300'});
+
+            
+                var html_377efca22b134f06812d76a0d752ca85 = $('<div id="html_377efca22b134f06812d76a0d752ca85" style="width: 100.0%; height: 100.0%;">[&#39;655 Queen St W&#39;, &#39;Toronto ON M6J 1E8&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_161623946ea741ada94ba4a91da31344.setContent(html_377efca22b134f06812d76a0d752ca85);
+            
+
+            circle_marker_d825136304834085b3171fc72e8ac069.bindPopup(popup_161623946ea741ada94ba4a91da31344);
+
+            
+        
+    
+            var circle_marker_fef9b86a8c4d4000a5a53e9d4948ef7a = L.circleMarker(
+                [43.64491920354413,-79.3918436177755],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_193f969107944c4c8d39c10c2d68f212 = L.popup({maxWidth: '300'});
+
+            
+                var html_91fe33858f894e148079e28b494ff968 = $('<div id="html_91fe33858f894e148079e28b494ff968" style="width: 100.0%; height: 100.0%;">[&#39;37 Blue Jays Way&#39;, &#39;Toronto ON M5V 3P5&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_193f969107944c4c8d39c10c2d68f212.setContent(html_91fe33858f894e148079e28b494ff968);
+            
+
+            circle_marker_fef9b86a8c4d4000a5a53e9d4948ef7a.bindPopup(popup_193f969107944c4c8d39c10c2d68f212);
+
+            
+        
+    
+            var circle_marker_0fb5a07f516248298120a683665c2403 = L.circleMarker(
+                [43.64794272203376,-79.3956474811735],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_689cd00142044249aae53a9b3655dc32 = L.popup({maxWidth: '300'});
+
+            
+                var html_d2eb5150624f495dbbf6f7e91720fb82 = $('<div id="html_d2eb5150624f495dbbf6f7e91720fb82" style="width: 100.0%; height: 100.0%;">[&#39;405 Richmond St. W (at Spadina Ave.)&#39;, &#39;Toronto ON&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_689cd00142044249aae53a9b3655dc32.setContent(html_d2eb5150624f495dbbf6f7e91720fb82);
+            
+
+            circle_marker_0fb5a07f516248298120a683665c2403.bindPopup(popup_689cd00142044249aae53a9b3655dc32);
+
+            
+        
+    
+            var circle_marker_270a12dcd8e04b1087abfcad323df0d9 = L.circleMarker(
+                [43.64405883528329,-79.38881541663336],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_f7b001cf7490463e9b6865dad1282b24 = L.popup({maxWidth: '300'});
+
+            
+                var html_aa159feb5bc042fdaf3654ef47d12f7a = $('<div id="html_aa159feb5bc042fdaf3654ef47d12f7a" style="width: 100.0%; height: 100.0%;">[&#39;250 Front St (John St)&#39;, &#39;Toronto ON M5V 3G5&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_f7b001cf7490463e9b6865dad1282b24.setContent(html_aa159feb5bc042fdaf3654ef47d12f7a);
+            
+
+            circle_marker_270a12dcd8e04b1087abfcad323df0d9.bindPopup(popup_f7b001cf7490463e9b6865dad1282b24);
+
+            
+        
+    
+            var circle_marker_af14cc97c79646c9ac9e868084476a39 = L.circleMarker(
+                [43.64327168873745,-79.39183585267101],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_549bfacadce348ecb63822c2bdf7ae4b = L.popup({maxWidth: '300'});
+
+            
+                var html_7cce69465f70427283dd1932de50ce7a = $('<div id="html_7cce69465f70427283dd1932de50ce7a" style="width: 100.0%; height: 100.0%;">[&#39;371 Front Street W (at Blue Jay Way)&#39;, &#39;Toronto ON M5V 3S8&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_549bfacadce348ecb63822c2bdf7ae4b.setContent(html_7cce69465f70427283dd1932de50ce7a);
+            
+
+            circle_marker_af14cc97c79646c9ac9e868084476a39.bindPopup(popup_549bfacadce348ecb63822c2bdf7ae4b);
+
+            
+        
+    
+            var circle_marker_65df1765f5ee4bd994a1db8fe2d4e732 = L.circleMarker(
+                [43.64479341856585,-79.3982296189393],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_78e2a6894286490ca842a2418a9099c9 = L.popup({maxWidth: '300'});
+
+            
+                var html_83b565fa47334093b8f1ff0998475e35 = $('<div id="html_83b565fa47334093b8f1ff0998475e35" style="width: 100.0%; height: 100.0%;">[&#39;521 King St. W (at Brant St.)&#39;, &#39;Toronto ON M5V 1K4&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_78e2a6894286490ca842a2418a9099c9.setContent(html_83b565fa47334093b8f1ff0998475e35);
+            
+
+            circle_marker_65df1765f5ee4bd994a1db8fe2d4e732.bindPopup(popup_78e2a6894286490ca842a2418a9099c9);
+
+            
+        
+    
+            var circle_marker_a13ea7ed94654bb99eb8c3d3b5365a74 = L.circleMarker(
+                [43.6449428004504,-79.3980232213905],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_1feb18b5e124421996c7731b81c804bc = L.popup({maxWidth: '300'});
+
+            
+                var html_83973b0cdf384af286fe797075cf9b5e = $('<div id="html_83973b0cdf384af286fe797075cf9b5e" style="width: 100.0%; height: 100.0%;">[&#39;540 King Street West&#39;, &#39;Toronto ON M5V 1M3&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_1feb18b5e124421996c7731b81c804bc.setContent(html_83973b0cdf384af286fe797075cf9b5e);
+            
+
+            circle_marker_a13ea7ed94654bb99eb8c3d3b5365a74.bindPopup(popup_1feb18b5e124421996c7731b81c804bc);
+
+            
+        
+    
+            var circle_marker_870d1ad8bc91496ca2614c6f80a8fdf2 = L.circleMarker(
+                [43.647512,-79.402509],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_fb6602589cf54c55822b820a7e42f692 = L.popup({maxWidth: '300'});
+
+            
+                var html_12f1b09389a94b82bb55db269414acab = $('<div id="html_12f1b09389a94b82bb55db269414acab" style="width: 100.0%; height: 100.0%;">[&#39;536 Queen St W&#39;, &#39;Toronto ON M5V 2B5&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_fb6602589cf54c55822b820a7e42f692.setContent(html_12f1b09389a94b82bb55db269414acab);
+            
+
+            circle_marker_870d1ad8bc91496ca2614c6f80a8fdf2.bindPopup(popup_fb6602589cf54c55822b820a7e42f692);
+
+            
+        
+    
+            var circle_marker_830480b942a24954a419efca9a913c97 = L.circleMarker(
+                [43.64745689946616,-79.40247635728825],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_f9f1fe7847174a3ab96b4f3023ed065b = L.popup({maxWidth: '300'});
+
+            
+                var html_6954e992b07b45a08122553ff86f031d = $('<div id="html_6954e992b07b45a08122553ff86f031d" style="width: 100.0%; height: 100.0%;">[&#39;609 Queen Street West (Bathurst)&#39;, &#39;Toronto ON&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_f9f1fe7847174a3ab96b4f3023ed065b.setContent(html_6954e992b07b45a08122553ff86f031d);
+            
+
+            circle_marker_830480b942a24954a419efca9a913c97.bindPopup(popup_f9f1fe7847174a3ab96b4f3023ed065b);
+
+            
+        
+    
+            var circle_marker_f16294f2f4994685a26499c3f446e829 = L.circleMarker(
+                [43.647499,-79.402481],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_4700a4cdb86e48248da582875300c95b = L.popup({maxWidth: '300'});
+
+            
+                var html_20d7313140d04b19b6c9f6f5771fbf63 = $('<div id="html_20d7313140d04b19b6c9f6f5771fbf63" style="width: 100.0%; height: 100.0%;">[&#39;609 queen street west&#39;, &#39;Toronto ON&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_4700a4cdb86e48248da582875300c95b.setContent(html_20d7313140d04b19b6c9f6f5771fbf63);
+            
+
+            circle_marker_f16294f2f4994685a26499c3f446e829.bindPopup(popup_4700a4cdb86e48248da582875300c95b);
+
+            
+        
+    
+            var circle_marker_6e9c8b483fed4dc5bb8c99600a6967a5 = L.circleMarker(
+                [43.64188774570393,-79.40196162252661],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_5ada6f9612534423af772f2775c9c597 = L.popup({maxWidth: '300'});
+
+            
+                var html_a3b3ee4bb0464cfaa7ef3957c9160a85 = $('<div id="html_a3b3ee4bb0464cfaa7ef3957c9160a85" style="width: 100.0%; height: 100.0%;">[&#39;51 Niagara St (at Bathurst St)&#39;, &#39;Toronto ON M5V 1C2&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_5ada6f9612534423af772f2775c9c597.setContent(html_a3b3ee4bb0464cfaa7ef3957c9160a85);
+            
+
+            circle_marker_6e9c8b483fed4dc5bb8c99600a6967a5.bindPopup(popup_5ada6f9612534423af772f2775c9c597);
+
+            
+        
+    
+            var circle_marker_7558b75e690a41b88ca41c806630ae3c = L.circleMarker(
+                [43.64357261100789,-79.40444192345056],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_35ae4d13241c497298e0ee8df45128c4 = L.popup({maxWidth: '300'});
+
+            
+                var html_b9d91344100540199527d9e9a9bd652a = $('<div id="html_b9d91344100540199527d9e9a9bd652a" style="width: 100.0%; height: 100.0%;">[&#39;720 King Street West&#39;, &#39;Toronto ON M5V 2T3&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_35ae4d13241c497298e0ee8df45128c4.setContent(html_b9d91344100540199527d9e9a9bd652a);
+            
+
+            circle_marker_7558b75e690a41b88ca41c806630ae3c.bindPopup(popup_35ae4d13241c497298e0ee8df45128c4);
+
+            
+        
+    
+            var circle_marker_7a22565335ff4b429f8652506fd332be = L.circleMarker(
+                [43.64769026542162,-79.40269947052002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_a3816cc2692b48489ab89fdca8c42179 = L.popup({maxWidth: '300'});
+
+            
+                var html_5dfa9570bcf5483a82b7d85a16cb19b6 = $('<div id="html_5dfa9570bcf5483a82b7d85a16cb19b6" style="width: 100.0%; height: 100.0%;">[&#39;534 Queen Street West&#39;, &#39;Toronto ON M5V 2B5&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_a3816cc2692b48489ab89fdca8c42179.setContent(html_5dfa9570bcf5483a82b7d85a16cb19b6);
+            
+
+            circle_marker_7a22565335ff4b429f8652506fd332be.bindPopup(popup_a3816cc2692b48489ab89fdca8c42179);
+
+            
+        
+    
+            var circle_marker_7b49278094b54ce79b1f85c74e77fe8b = L.circleMarker(
+                [43.64906304786478,-79.39084761040422],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_90cf1115b93344f0a4837e14208736f4 = L.popup({maxWidth: '300'});
+
+            
+                var html_c60dcf11b51a4f19b104b3616ec8355f = $('<div id="html_c60dcf11b51a4f19b104b3616ec8355f" style="width: 100.0%; height: 100.0%;">[&#39;150 John Street&#39;, &#39;Toronto ON M5V 3C3&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_90cf1115b93344f0a4837e14208736f4.setContent(html_c60dcf11b51a4f19b104b3616ec8355f);
+            
+
+            circle_marker_7b49278094b54ce79b1f85c74e77fe8b.bindPopup(popup_90cf1115b93344f0a4837e14208736f4);
+
+            
+        
+    
+            var circle_marker_63f6b24dc2144b2ea08e54e4c548fd3e = L.circleMarker(
+                [43.6504011331197,-79.39804047841302],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_74c708305276475f82f2e5e410ce2b97 = L.popup({maxWidth: '300'});
+
+            
+                var html_4704ec216a7c48d798f8451a490c414a = $('<div id="html_4704ec216a7c48d798f8451a490c414a" style="width: 100.0%; height: 100.0%;">[&#39;59 Cameron St&#39;, &#39;Toronto ON M5T 2H1&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_74c708305276475f82f2e5e410ce2b97.setContent(html_4704ec216a7c48d798f8451a490c414a);
+            
+
+            circle_marker_63f6b24dc2144b2ea08e54e4c548fd3e.bindPopup(popup_74c708305276475f82f2e5e410ce2b97);
+
+            
+        
+    
+            var circle_marker_63917a86719a47228e2aff259b441148 = L.circleMarker(
+                [43.642010853785024,-79.41190916306661],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_f5dc360e03c3441caf684cc2aeb8188b = L.popup({maxWidth: '300'});
+
+            
+                var html_57cf076d305b4f25a79cbf48f221e230 = $('<div id="html_57cf076d305b4f25a79cbf48f221e230" style="width: 100.0%; height: 100.0%;">[&#39;901 King St W (at Strachan Ave)&#39;, &#39;Toronto ON M5V 3H5&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_f5dc360e03c3441caf684cc2aeb8188b.setContent(html_57cf076d305b4f25a79cbf48f221e230);
+            
+
+            circle_marker_63917a86719a47228e2aff259b441148.bindPopup(popup_f5dc360e03c3441caf684cc2aeb8188b);
+
+            
+        
+    
+            var circle_marker_7e2a58aa83704cf7a4b2a82a6de982f5 = L.circleMarker(
+                [43.6469300616867,-79.40551866346723],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_c695e49b379b41cfa2da9e9cd5a278a7 = L.popup({maxWidth: '300'});
+
+            
+                var html_c4b18a2c52c34f8c9c75301bbc503d3b = $('<div id="html_c4b18a2c52c34f8c9c75301bbc503d3b" style="width: 100.0%; height: 100.0%;">[&#39;624 Queen Street West&#39;, &#39;Toronto ON&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_c695e49b379b41cfa2da9e9cd5a278a7.setContent(html_c4b18a2c52c34f8c9c75301bbc503d3b);
+            
+
+            circle_marker_7e2a58aa83704cf7a4b2a82a6de982f5.bindPopup(popup_c695e49b379b41cfa2da9e9cd5a278a7);
+
+            
+        
+    
+            var circle_marker_f8dc1d8c11c6443da7d7566992495334 = L.circleMarker(
+                [43.64787,-79.391136],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_8835e239ef3746f198a855adfcb846a6 = L.popup({maxWidth: '300'});
+
+            
+                var html_3df4c24f4fd5454aaf593145049cf7de = $('<div id="html_3df4c24f4fd5454aaf593145049cf7de" style="width: 100.0%; height: 100.0%;">[&#39;290 Adelaide Street West&#39;, &#39;Toronto ON M5V 1P6&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_8835e239ef3746f198a855adfcb846a6.setContent(html_3df4c24f4fd5454aaf593145049cf7de);
+            
+
+            circle_marker_f8dc1d8c11c6443da7d7566992495334.bindPopup(popup_8835e239ef3746f198a855adfcb846a6);
+
+            
+        
+    
+            var circle_marker_b97ade64fcbc4f829e0d11e7243876e2 = L.circleMarker(
+                [43.652065,-79.406425],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_e681428c263c48a8af7e5604e66865d3 = L.popup({maxWidth: '300'});
+
+            
+                var html_c0da75d7aecb42a19369ff0430f96b62 = $('<div id="html_c0da75d7aecb42a19369ff0430f96b62" style="width: 100.0%; height: 100.0%;">[&#39;761 Dundas St W&#39;, &#39;Toronto ON M6J 1T9&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_e681428c263c48a8af7e5604e66865d3.setContent(html_c0da75d7aecb42a19369ff0430f96b62);
+            
+
+            circle_marker_b97ade64fcbc4f829e0d11e7243876e2.bindPopup(popup_e681428c263c48a8af7e5604e66865d3);
+
+            
+        
+    
+            var circle_marker_1ddc86207fa5442a87236d4df12d20e6 = L.circleMarker(
+                [43.651347,-79.39702],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_74d5fd82ee2b479695bad9e31fef8c80 = L.popup({maxWidth: '300'});
+
+            
+                var html_5e4ee541092e4ce6a93aa259b0fffa52 = $('<div id="html_5e4ee541092e4ce6a93aa259b0fffa52" style="width: 100.0%; height: 100.0%;">[&#39;235 Spadina Ave (Dundas St. W)&#39;, &#39;Toronto ON M5T 2E2&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_74d5fd82ee2b479695bad9e31fef8c80.setContent(html_5e4ee541092e4ce6a93aa259b0fffa52);
+            
+
+            circle_marker_1ddc86207fa5442a87236d4df12d20e6.bindPopup(popup_74d5fd82ee2b479695bad9e31fef8c80);
+
+            
+        
+    
+            var circle_marker_e4ec3dfb1682407a976ce685ccea1838 = L.circleMarker(
+                [43.64340720952727,-79.39124851566606],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_2efe7982e0a8448eab6886c7bcd37e15 = L.popup({maxWidth: '300'});
+
+            
+                var html_b8bb2ed3bedd428187a65296f0ff7478 = $('<div id="html_b8bb2ed3bedd428187a65296f0ff7478" style="width: 100.0%; height: 100.0%;">[&#39;340 Front St W (Blue Jays Way)&#39;, &#39;Toronto ON M5V 3W7&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_2efe7982e0a8448eab6886c7bcd37e15.setContent(html_b8bb2ed3bedd428187a65296f0ff7478);
+            
+
+            circle_marker_e4ec3dfb1682407a976ce685ccea1838.bindPopup(popup_2efe7982e0a8448eab6886c7bcd37e15);
+
+            
+        
+    
+            var circle_marker_7f7b979d6cc649628d89bc27e22d546a = L.circleMarker(
+                [43.648508480284356,-79.39702846996235],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_543dcc5a33ef4993a299ad9c78b66c80 = L.popup({maxWidth: '300'});
+
+            
+                var html_0eb14ccf299040c0846431c5118ea37a = $('<div id="html_0eb14ccf299040c0846431c5118ea37a" style="width: 100.0%; height: 100.0%;">[&#39;404 Queen St W&#39;, &#39;Toronto ON&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_543dcc5a33ef4993a299ad9c78b66c80.setContent(html_0eb14ccf299040c0846431c5118ea37a);
+            
+
+            circle_marker_7f7b979d6cc649628d89bc27e22d546a.bindPopup(popup_543dcc5a33ef4993a299ad9c78b66c80);
+
+            
+        
+    
+            var circle_marker_fe72d5a216ca4ddb8829b548b3ac7f72 = L.circleMarker(
+                [43.65205447497852,-79.40726328734823],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_b0a75d02df734e69ba7aecd1fe0e8492 = L.popup({maxWidth: '300'});
+
+            
+                var html_ee41f9ac544e459aa9afd11e0e06dd98 = $('<div id="html_ee41f9ac544e459aa9afd11e0e06dd98" style="width: 100.0%; height: 100.0%;">[&#39;772 Dundas St W (Bathurst)&#39;, &#39;Toronto ON&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_b0a75d02df734e69ba7aecd1fe0e8492.setContent(html_ee41f9ac544e459aa9afd11e0e06dd98);
+            
+
+            circle_marker_fe72d5a216ca4ddb8829b548b3ac7f72.bindPopup(popup_b0a75d02df734e69ba7aecd1fe0e8492);
+
+            
+        
+    
+            var circle_marker_9471b03f14de4906a26ae8b7b0b412e9 = L.circleMarker(
+                [43.647806,-79.396355],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_b823db2616e64d3f98b2f578ce45d74a = L.popup({maxWidth: '300'});
+
+            
+                var html_5eaa63a8700e42659be10998b502bd26 = $('<div id="html_5eaa63a8700e42659be10998b502bd26" style="width: 100.0%; height: 100.0%;">[&#39;Canada&#39;]</div>')[0];
+                popup_b823db2616e64d3f98b2f578ce45d74a.setContent(html_5eaa63a8700e42659be10998b502bd26);
+            
+
+            circle_marker_9471b03f14de4906a26ae8b7b0b412e9.bindPopup(popup_b823db2616e64d3f98b2f578ce45d74a);
+
+            
+        
+    
+            var circle_marker_a1bdbca997d84fb385d89ded199203a1 = L.circleMarker(
+                [43.645145,-79.389296],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_a8593b41c3894314876f03bb4bb7400b = L.popup({maxWidth: '300'});
+
+            
+                var html_2a3fb797371e4395a469cf1938c112eb = $('<div id="html_2a3fb797371e4395a469cf1938c112eb" style="width: 100.0%; height: 100.0%;">[&#39;Canada&#39;]</div>')[0];
+                popup_a8593b41c3894314876f03bb4bb7400b.setContent(html_2a3fb797371e4395a469cf1938c112eb);
+            
+
+            circle_marker_a1bdbca997d84fb385d89ded199203a1.bindPopup(popup_a8593b41c3894314876f03bb4bb7400b);
+
+            
+        
+    
+            var circle_marker_610febeb2ca9406e932196e3a62bf480 = L.circleMarker(
+                [43.652137,-79.40627402950219],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_ae18d8f2aee34905b9325a4a5cc5bd87 = L.popup({maxWidth: '300'});
+
+            
+                var html_8a2c43e225e541108d27121d27cf9a07 = $('<div id="html_8a2c43e225e541108d27121d27cf9a07" style="width: 100.0%; height: 100.0%;">[&#39;Toronto ON&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_ae18d8f2aee34905b9325a4a5cc5bd87.setContent(html_8a2c43e225e541108d27121d27cf9a07);
+            
+
+            circle_marker_610febeb2ca9406e932196e3a62bf480.bindPopup(popup_ae18d8f2aee34905b9325a4a5cc5bd87);
+
+            
+        
+    
+            var circle_marker_4591f698c9ca404583057f51d3117a7d = L.circleMarker(
+                [43.64511516109716,-79.38940583644242],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_61752a58e5ce4b9cb44bcf7852ce4fb5 = L.popup({maxWidth: '300'});
+
+            
+                var html_5d4d5938778d411f82f0e2612a7d22b4 = $('<div id="html_5d4d5938778d411f82f0e2612a7d22b4" style="width: 100.0%; height: 100.0%;">[&#39;232 wellington street west (John)&#39;, &#39;Toronto ON&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_61752a58e5ce4b9cb44bcf7852ce4fb5.setContent(html_5d4d5938778d411f82f0e2612a7d22b4);
+            
+
+            circle_marker_4591f698c9ca404583057f51d3117a7d.bindPopup(popup_61752a58e5ce4b9cb44bcf7852ce4fb5);
+
+            
+        
+    
+            var circle_marker_fe0d8ea73509460fb67aec07af4bf09c = L.circleMarker(
+                [43.65371433072711,-79.40587520599365],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_049e6b1e004a46c282f012fd21d9853b = L.popup({maxWidth: '300'});
+
+            
+                var html_2c6c67fcd7ff48d590feab1d7c292226 = $('<div id="html_2c6c67fcd7ff48d590feab1d7c292226" style="width: 100.0%; height: 100.0%;">[&#39;299 Bathurst St. (Dundas and Bathurst)&#39;, &#39;Toronto ON&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_049e6b1e004a46c282f012fd21d9853b.setContent(html_2c6c67fcd7ff48d590feab1d7c292226);
+            
+
+            circle_marker_fe0d8ea73509460fb67aec07af4bf09c.bindPopup(popup_049e6b1e004a46c282f012fd21d9853b);
+
+            
+        
+    
+            var circle_marker_7503c6b90e7a411697f7e2793149d4f2 = L.circleMarker(
+                [43.652698173255004,-79.40599999627591],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_2a88f7f4ae964dd89ef09237b5bd38e6 = L.popup({maxWidth: '300'});
+
+            
+                var html_28a0c222ba384d1989adcf2e13f9f47b = $('<div id="html_28a0c222ba384d1989adcf2e13f9f47b" style="width: 100.0%; height: 100.0%;">[&#39;399 Bathurst St (Dundas)&#39;, &#39;Toronto ON&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_2a88f7f4ae964dd89ef09237b5bd38e6.setContent(html_28a0c222ba384d1989adcf2e13f9f47b);
+            
+
+            circle_marker_7503c6b90e7a411697f7e2793149d4f2.bindPopup(popup_2a88f7f4ae964dd89ef09237b5bd38e6);
+
+            
+        
+    
+            var circle_marker_0a67cd027ce7492e83f7aa74d1a2a8f1 = L.circleMarker(
+                [43.651803765965376,-79.408314200848],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_a53b382e60a140f7b5b26b48ec04edde = L.popup({maxWidth: '300'});
+
+            
+                var html_06febd5419f340e39e2aa38865bfc6bd = $('<div id="html_06febd5419f340e39e2aa38865bfc6bd" style="width: 100.0%; height: 100.0%;">[&#39;796 Dundas Street West&#39;, &#39;Toronto ON&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_a53b382e60a140f7b5b26b48ec04edde.setContent(html_06febd5419f340e39e2aa38865bfc6bd);
+            
+
+            circle_marker_0a67cd027ce7492e83f7aa74d1a2a8f1.bindPopup(popup_a53b382e60a140f7b5b26b48ec04edde);
+
+            
+        
+    
+            var circle_marker_1f3b16317cd143b798bebe200e21a382 = L.circleMarker(
+                [43.646846252875406,-79.41132642774959],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_075cf03f43e048e7b7d2ac4aaf40a111 = L.popup({maxWidth: '300'});
+
+            
+                var html_5a9d61ecff2f4a70ae9165ba7499d002 = $('<div id="html_5a9d61ecff2f4a70ae9165ba7499d002" style="width: 100.0%; height: 100.0%;">[&#39;869 Queen St. W (at Bellwoods Ave.)&#39;, &#39;Toronto ON&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_075cf03f43e048e7b7d2ac4aaf40a111.setContent(html_5a9d61ecff2f4a70ae9165ba7499d002);
+            
+
+            circle_marker_1f3b16317cd143b798bebe200e21a382.bindPopup(popup_075cf03f43e048e7b7d2ac4aaf40a111);
+
+            
+        
+    
+            var circle_marker_0a96d9224676405388e3c6d1bed33ba3 = L.circleMarker(
+                [43.64795421908404,-79.3906831741333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_e7b3f9c3712947369b502bd3b33fb553 = L.popup({maxWidth: '300'});
+
+            
+                var html_1b9d96628e94496c90ef478ed20c6ff9 = $('<div id="html_1b9d96628e94496c90ef478ed20c6ff9" style="width: 100.0%; height: 100.0%;">[&#39;327 Queen St W&#39;, &#39;Toronto ON M5V 2A4&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_e7b3f9c3712947369b502bd3b33fb553.setContent(html_1b9d96628e94496c90ef478ed20c6ff9);
+            
+
+            circle_marker_0a96d9224676405388e3c6d1bed33ba3.bindPopup(popup_e7b3f9c3712947369b502bd3b33fb553);
+
+            
+        
+    
+            var circle_marker_e723ba5e4da645de9920d7130b6233da = L.circleMarker(
+                [43.643426,-79.392029],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_c4b002c7dda84e55bc696ca6b30ee9d9 = L.popup({maxWidth: '300'});
+
+            
+                var html_1acc9747d1284b87a95488ef3a407205 = $('<div id="html_1acc9747d1284b87a95488ef3a407205" style="width: 100.0%; height: 100.0%;">[&#39;344 Front St W (Spadina)&#39;, &#39;Toronto ON M5V 3W7&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_c4b002c7dda84e55bc696ca6b30ee9d9.setContent(html_1acc9747d1284b87a95488ef3a407205);
+            
+
+            circle_marker_e723ba5e4da645de9920d7130b6233da.bindPopup(popup_c4b002c7dda84e55bc696ca6b30ee9d9);
+
+            
+        
+    
+            var circle_marker_2d61571de5164f1093220d89506bfae7 = L.circleMarker(
+                [43.646324157714844,-79.39910125732422],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_404f40c6c3f845368d3ea871874f153d = L.popup({maxWidth: '300'});
+
+            
+                var html_e5357ed195b14b7eb58e65f18c0d9317 = $('<div id="html_e5357ed195b14b7eb58e65f18c0d9317" style="width: 100.0%; height: 100.0%;">[&#39;Toronto ON&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_404f40c6c3f845368d3ea871874f153d.setContent(html_e5357ed195b14b7eb58e65f18c0d9317);
+            
+
+            circle_marker_2d61571de5164f1093220d89506bfae7.bindPopup(popup_404f40c6c3f845368d3ea871874f153d);
+
+            
+        
+    
+            var circle_marker_608120a192d44cdba65da697e771ee06 = L.circleMarker(
+                [43.645816,-79.394826],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_5585754f2d554ef69a9d0e793d3edf72 = L.popup({maxWidth: '300'});
+
+            
+                var html_6513e6e7c9a44b979620f2f87b206f5f = $('<div id="html_6513e6e7c9a44b979620f2f87b206f5f" style="width: 100.0%; height: 100.0%;">[&#39;Canada&#39;]</div>')[0];
+                popup_5585754f2d554ef69a9d0e793d3edf72.setContent(html_6513e6e7c9a44b979620f2f87b206f5f);
+            
+
+            circle_marker_608120a192d44cdba65da697e771ee06.bindPopup(popup_5585754f2d554ef69a9d0e793d3edf72);
+
+            
+        
+    
+            var circle_marker_563f13275de04336b5c7206942edf6c7 = L.circleMarker(
+                [43.64713760208766,-79.39566190827182],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_25a58d620d8440b8ad14063e606e903f = L.popup({maxWidth: '300'});
+
+            
+                var html_8af6c124872143df9f8118a48ce44be9 = $('<div id="html_8af6c124872143df9f8118a48ce44be9" style="width: 100.0%; height: 100.0%;">[&#39;123 Spadina Ave&#39;, &#39;Toronto ON&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_25a58d620d8440b8ad14063e606e903f.setContent(html_8af6c124872143df9f8118a48ce44be9);
+            
+
+            circle_marker_563f13275de04336b5c7206942edf6c7.bindPopup(popup_25a58d620d8440b8ad14063e606e903f);
+
+            
+        
+    
+            var circle_marker_e20f63ac650f4b32a26a7138bc05066d = L.circleMarker(
+                [43.64783852702828,-79.39029271145894],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ef888303feba4bc387d066f83e4d3110);
+            
+    
+            var popup_5af784ccd7aa4ecfbd5b2efdfc8aff36 = L.popup({maxWidth: '300'});
+
+            
+                var html_dbfe55595d8b46bf933de4e70f0957fb = $('<div id="html_dbfe55595d8b46bf933de4e70f0957fb" style="width: 100.0%; height: 100.0%;">[&#39;270 Adelaide St. W (at John St)&#39;, &#39;Toronto ON M5H 1X6&#39;, &#39;Canada&#39;]</div>')[0];
+                popup_5af784ccd7aa4ecfbd5b2efdfc8aff36.setContent(html_dbfe55595d8b46bf933de4e70f0957fb);
+            
+
+            circle_marker_e20f63ac650f4b32a26a7138bc05066d.bindPopup(popup_5af784ccd7aa4ecfbd5b2efdfc8aff36);
+
+            
+        
+</script>
